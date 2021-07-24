@@ -1,0 +1,38 @@
+---
+title: "lifeexpectancy"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(readr)
+library(dplyr)
+library(packcircles)
+library(tidyverse)
+library(ggplot2)
+library(viridis)
+library(readxl)
+library(gganimate)
+library(lubridate)
+library(hrbrthemes)
+library(kableExtra)
+library(plotly)
+```
+
+```{r}
+# read two dataset and country code
+population_by_education_level <- read_csv("Desktop/Data Science Certificate/population_by_education_level.csv")
+popedu <- na.omit(population_by_education_level)
+life_expectancy_at_birth <- read_csv("Desktop/Data Science Certificate/life_expectancy_at_birth.csv")
+popbir <- na.omit(life_expectancy_at_birth)
+EUCC <- read_csv("Desktop/Data Science Certificate/EU_Country_Codes.csv")
+EUCC
+# merging two dataset by 
+df <- merge(popedu,EUCC,by = "geography")
+df1 <- merge(df, popbir, by = "geography")
+df1
+```
+
