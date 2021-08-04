@@ -1,4 +1,4 @@
-# GTBC-Capstone 1
+# GTBC-Capstone 1: Correlation of Life Expectancy with Education
 
 ## Project Overview
 In this capstone project, our group was interested in explore that whether life expectancy correlates with the level of education in 31 Europe countries from year 2008 to 2019. 
@@ -11,7 +11,7 @@ Three three sources of final code writen by individual of group member, and the 
   * [life.Rmd](life.Rmd) by Yuman Wu who focused on working on to general dataset for further EDA and regression analysis.
   * [Project_1_LingLv.ipynb](Project_1_LingLv.ipynb) by Ling  Lv who focused on working on the explorary data analysis (EDA).
    
-Finally, our presentation summarazing our results can be found in the powerpoint file [Capstone 1 Project Presentation.pptx](<Capstone 1 Project Presentation.pptx>).
+Finally, our presentation summarazing our results can be found in the powerpoint file [Capstone1_Project_Presentation_LLv_JFCv2.pptx](Capstone1_Project_Presentation_LLv_JFCv2.pptx).
 
 ## Link to Datasets
 * Population by Education Levels in Europe
